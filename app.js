@@ -1,3 +1,17 @@
+/* =====================================================================
+   PRECIOS DE LOS JABONES  (en pesos colombianos, sin puntos ni signos)
+   Cambia aquí los valores y guarda el archivo. Ejemplo: precioAvena: 8000
+   Si dejas un 0, la página muestra "Precio por confirmar".
+   ===================================================================== */
+const PRECIOS = {
+  precioAvena: 0,
+  precioMiel: 0,
+  precioSabila: 0,
+  precioLavanda: 0,
+  precioCoco: 0
+};
+/* ===================================================================== */
+
 class DCLogic{constructor(p){this.props=p;}
  setState(s){const st=typeof s==='function'?s(this.state):s;this.state=Object.assign({},this.state,st);App.schedule();}}
 const App=(function(){
@@ -186,4 +200,4 @@ class Component extends DCLogic {
   }
 }
 
-App.start(Component,{"accent": "#2E4D3B", "precioAvena": 0, "precioMiel": 0, "precioSabila": 0, "precioLavanda": 0, "precioCoco": 0});
+App.start(Component, Object.assign({ accent: "#2E4D3B" }, PRECIOS));
