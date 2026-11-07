@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esencia Natural | Jabones naturales en Maicao, La Guajira</title>
+<meta name="description" content="Esencia Natural: jabones inspirados en ingredientes naturales. El cuidado que nace de la naturaleza. Maicao, La Guajira.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app"></div>
+<template id="tpl">
+
+
+<div style="--accent: {{accent}}; font-family: 'DM Sans', system-ui, sans-serif; color: #1E2B24; background: #F7F2E8; line-height: 1.6; font-size: 17px; width: 100%; overflow-x: hidden">
+
+<!-- INICIO: LANDING A PANTALLA COMPLETA -->
+<section id="inicio" style="position: relative; overflow: hidden; min-height: 100vh; background: #12291D; color: #F7F2E8; display: flex; flex-direction: column">
+
+  <!-- Escena de fondo -->
+  <svg viewBox="0 0 1600 900" preserveAspectRatio="xMaxYMid slice" role="img" aria-label="Escena de jabones naturales sobre una base de piedra, rodeados de helechos, hojas de sábila y gotas de agua, con luz cálida" style="position: absolute; inset: 0; width: 100%; height: 100%; display: block">
+    <defs>
+      <linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1D4331"/><stop offset=".6" stop-color="#12291D"/><stop offset="1" stop-color="#0B1B12"/></linearGradient>
+      <radialGradient id="hglow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#F7D58A" stop-opacity=".75"/><stop offset=".5" stop-color="#F0B94B" stop-opacity=".2"/><stop offset="1" stop-color="#F0B94B" stop-opacity="0"/></radialGradient>
+      <linearGradient id="hslab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6EEDC"/><stop offset="1" stop-color="#CDBF9F"/></linearGradient>
+      <filter id="hb24" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="24"/></filter>
+      <filter id="hb10" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter>
+      <filter id="hb4" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.5"/></filter>
+      <g id="hfern">
+        <path d="M0 0C-6-120-2-220 10-330" stroke="#3E7A47" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <g fill="#4F8A4B">
+          <ellipse cx="-34" cy="-50" rx="12" ry="44" transform="rotate(58 -34 -50)"/><ellipse cx="34" cy="-50" rx="12" ry="44" transform="rotate(-58 34 -50)"/>
+          <ellipse cx="-33" cy="-100" rx="12" ry="42" transform="rotate(58 -33 -100)"/><ellipse cx="33" cy="-100" rx="12" ry="42" transform="rotate(-58 33 -100)"/>
+          <ellipse cx="-31" cy="-150" rx="11" ry="38" transform="rotate(58 -31 -150)"/><ellipse cx="33" cy="-150" rx="11" ry="38" transform="rotate(-58 33 -150)"/>
+          <ellipse cx="-28" cy="-200" rx="10" ry="34" transform="rotate(58 -28 -200)"/><ellipse cx="34" cy="-200" rx="10" ry="34" transform="rotate(-58 34 -200)"/>
+          <ellipse cx="-24" cy="-250" rx="9" ry="29" transform="rotate(58 -24 -250)"/><ellipse cx="36" cy="-250" rx="9" ry="29" transform="rotate(-58 36 -250)"/>
+          <ellipse cx="-18" cy="-296" rx="8" ry="24" transform="rotate(58 -18 -296)"/><ellipse cx="38" cy="-296" rx="8" ry="24" transform="rotate(-58 38 -296)"/>
+          <ellipse cx="10" cy="-335" rx="7" ry="22"/>
+        </g>
+      </g>
+      <g id="hAvena"><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#CDB88C"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#E9D9B8"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".3"/><g fill="#B98B4A"><ellipse cx="120" cy="112" rx="6" ry="13" transform="rotate(-30 120 112)"/><ellipse cx="146" cy="104" rx="6" ry="13" transform="rotate(20 146 104)"/><ellipse cx="174" cy="116" rx="6" ry="13" transform="rotate(-15 174 116)"/><ellipse cx="200" cy="106" rx="6" ry="13" transform="rotate(35 200 106)"/><ellipse cx="160" cy="134" rx="6" ry="13" transform="rotate(60 160 134)"/></g></g></g>
+      <g id="hMiel"><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#D79A2B"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#F0B94B"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".3"/><g fill="#fff" fill-opacity=".25" stroke="#A8650F" stroke-width="2.4" stroke-linejoin="round"><polygon points="130,88 144,96 144,112 130,120 116,112 116,96"/><polygon points="158,88 172,96 172,112 158,120 144,112 144,96"/><polygon points="144,112 158,120 158,136 144,144 130,136 130,120"/><polygon points="172,112 186,120 186,136 172,144 158,136 158,120"/></g><path d="M208 90c9 13 13 19 13 25a13 13 0 0 1-26 0c0-6 4-12 13-25z" fill="#A8650F"/></g></g>
+      <g id="hLav"><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#A99BCB"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#CBBFE3"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".3"/><path d="M150 148V72" stroke="#5E4A8C" stroke-width="3.5" stroke-linecap="round"/><g fill="#7B64A8"><ellipse cx="141" cy="84" rx="6" ry="10" transform="rotate(-25 141 84)"/><ellipse cx="159" cy="84" rx="6" ry="10" transform="rotate(25 159 84)"/><ellipse cx="140" cy="102" rx="6" ry="10" transform="rotate(-25 140 102)"/><ellipse cx="160" cy="102" rx="6" ry="10" transform="rotate(25 160 102)"/><ellipse cx="139" cy="120" rx="6" ry="10" transform="rotate(-25 139 120)"/><ellipse cx="161" cy="120" rx="6" ry="10" transform="rotate(25 161 120)"/><ellipse cx="150" cy="72" rx="5" ry="9"/></g></g></g>
+      <g id="hSab"><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#8FBF7F"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#B8D9A5"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".3"/><path d="M150 148C132 120 136 84 150 66C164 84 168 120 150 148Z" fill="#3F7A3E"/><path d="M146 148C118 132 104 104 108 82C128 96 146 120 146 148Z" fill="#5E9A58"/><path d="M154 148C182 132 196 104 192 82C172 96 154 120 154 148Z" fill="#5E9A58"/></g></g>
+    </defs>
+
+    <rect width="1600" height="900" fill="url(#hbg)"/>
+    <circle cx="1180" cy="300" r="560" fill="url(#hglow)"/>
+    <g fill="#fff" opacity=".055"><polygon points="1160,-40 1320,-40 980,940 640,940"/><polygon points="1320,-40 1420,-40 1500,940 1160,940"/><polygon points="1000,-40 1080,-40 520,940 330,940"/></g>
+
+    <!-- hojas lejanas desenfocadas -->
+    <g filter="url(#hb24)" opacity=".75"><ellipse cx="70" cy="120" rx="100" ry="340" transform="rotate(-38 70 120)" fill="#2F6B45"/><ellipse cx="560" cy="-20" rx="90" ry="260" transform="rotate(30 560 -20)" fill="#1F5237"/><ellipse cx="1560" cy="140" rx="110" ry="330" transform="rotate(34 1560 140)" fill="#2F6B45"/></g>
+
+    <!-- helechos medios -->
+    <g class="sway" opacity=".9"><use href="#hfern" transform="translate(1000 760) rotate(-24) scale(1.3)"/></g>
+    <g class="sway" opacity=".8" style="animation-delay:-3s"><use href="#hfern" transform="translate(1590 800) rotate(22) scale(1.5)"/></g>
+    <g class="sway" opacity=".55" filter="url(#hb4)" style="animation-delay:-5s"><use href="#hfern" transform="translate(820 820) rotate(-40) scale(1.0)"/></g>
+
+    <!-- base de piedra -->
+    <ellipse cx="1210" cy="742" rx="470" ry="26" fill="#000" opacity=".35" filter="url(#hb10)"/>
+    <rect x="800" y="716" width="820" height="260" rx="34" fill="url(#hslab)"/>
+    <rect x="800" y="716" width="820" height="12" rx="6" fill="#fff" opacity=".55"/>
+
+    <!-- jabones -->
+    <g class="float" style="animation-delay:-2s"><use href="#hSab" transform="translate(1330 560) scale(1.15)"/></g>
+    <use href="#hLav" transform="translate(1000 480) scale(1.3)"/>
+    <use href="#hAvena" transform="translate(1110 420) scale(1.5)"/>
+    <g class="float"><use href="#hMiel" transform="translate(1208 190) scale(1.2)"/></g>
+
+    <!-- gotas y bokeh -->
+    <g fill="#F7D58A" filter="url(#hb10)" opacity=".4"><circle cx="760" cy="200" r="46"/><circle cx="1480" cy="420" r="60"/><circle cx="900" cy="560" r="34"/><circle cx="1130" cy="90" r="38"/></g>
+    <g fill="#fff"><g class="float" style="animation-delay:-1s"><path d="M1040 300c9 14 13 21 13 27a13 13 0 0 1-26 0c0-6 4-13 13-27z" opacity=".85"/></g><g class="float" style="animation-delay:-4s"><path d="M1500 250c7 11 10 16 10 21a10 10 0 0 1-20 0c0-5 3-10 10-21z" opacity=".7"/></g><circle cx="1460" cy="610" r="7" opacity=".7"/><circle cx="1000" cy="640" r="5" opacity=".6"/><circle cx="1390" cy="150" r="5" opacity=".6"/></g>
+
+    <!-- primer plano desenfocado -->
+    <g class="sway" filter="url(#hb10)" opacity=".85" style="animation-delay:-2s"><use href="#hfern" transform="translate(120 960) rotate(18) scale(2.0)"/></g>
+  </svg>
+
+  <!-- Velo para legibilidad -->
+  <div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(9,25,17,.9) 0%, rgba(9,25,17,.66) 42%, rgba(9,25,17,.08) 78%), linear-gradient(0deg, rgba(9,25,17,.55) 0%, rgba(9,25,17,0) 40%)"></div>
+
+  <!-- Encabezado sobre la imagen -->
+  <header style="position: relative; z-index: 5; width: 100%; max-width: 1240px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px">
+    <a href="#inicio" style="display: flex; align-items: center; gap: 12px" aria-label="Esencia Natural, inicio">
+      <svg width="44" height="44" viewBox="0 0 42 42" aria-hidden="true"><circle cx="21" cy="21" r="21" fill="#F7F2E8"/><path d="M12 29c0-9 7-15 18-15 0 10-6 17-15 17" fill="#2E4D3B"/><path d="M13 30c5-6 9-9 14-12" stroke="#F7F2E8" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+      <span style="font-family: 'Fraunces', Georgia, serif; font-size: 25px; font-weight: 600; letter-spacing: -0.01em; color: #F7F2E8">Esencia Natural</span>
+    </a>
+    <nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 2px; align-items: center">
+      <a class="hnav" href="#nosotros">Nosotros</a>
+      <a class="hnav" href="#productos">Productos</a>
+      <a class="hnav" href="#valores">Valores</a>
+      <a class="hnav" href="#comunidad">Comunidad</a>
+      <a class="hnav" href="#pedido">Cómo pedir</a>
+      <a class="hnav" href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn glass glass-btn" href="{{waGeneral}}" style="color: #F7F2E8; padding: 12px 24px; border-radius: 999px; font-weight: 700; min-height: 44px; display: inline-flex; align-items: center">Escríbenos</a>
+  </header>
+
+  <!-- Contenido principal -->
+  <div style="position: relative; z-index: 4; width: 100%; max-width: 1240px; margin: 0 auto; padding: 40px 24px 36px; flex: 1; display: flex; flex-direction: column; justify-content: center">
+    <p class="rise glass" style="margin: 0 0 24px; align-self: flex-start; padding: 8px 18px; border-radius: 999px; font-weight: 700; font-size: 13.5px; letter-spacing: .12em; text-transform: uppercase; color: #F7D58A; animation-delay: .1s">Maicao · La Guajira · Colombia</p>
+    <h1 class="rise" style="margin: 0 0 24px; max-width: 800px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(44px, 7.4vw, 100px); line-height: .98; letter-spacing: -0.03em; color: #FFFBF3; animation-delay: .25s">El cuidado que nace de la <span style="color: #F0C06E; font-style: italic">naturaleza.</span></h1>
+    <p class="rise" style="margin: 0 0 36px; max-width: 560px; font-size: clamp(17px, 1.6vw, 21px); color: #E4EDE1; animation-delay: .45s">Jabones inspirados en la avena, la miel, la sábila, la lavanda y el coco. Frescura, limpieza y una presentación cuidada para tu rutina diaria.</p>
+    <div class="rise" style="display: flex; flex-wrap: wrap; gap: 16px; animation-delay: .65s">
+      <a class="btn cta" href="#productos" style="background: #F0B94B; color: #1E2B24; padding: 0 34px; min-height: 58px; border-radius: 999px; font-weight: 700; font-size: 18px; display: inline-flex; align-items: center; gap: 10px">Descubre nuestros productos
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="btn glass glass-btn" href="{{waGeneral}}" style="color: #F7F2E8; padding: 0 30px; min-height: 58px; border-radius: 999px; font-weight: 700; font-size: 18px; display: inline-flex; align-items: center">Pedir por WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- Leyendas -->
+  <div class="rise" style="position: relative; z-index: 4; padding-bottom: 120px; animation-delay: .9s">
+    <ul style="list-style: none; max-width: 1240px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 12px">
+      <li class="glass" style="padding: 10px 20px; border-radius: 999px; font-weight: 500; color: #F7F2E8">Ingredientes inspirados en la naturaleza</li>
+      <li class="glass" style="padding: 10px 20px; border-radius: 999px; font-weight: 500; color: #F7F2E8">5 variedades de jabón</li>
+      <li class="glass" style="padding: 10px 20px; border-radius: 999px; font-weight: 500; color: #F7F2E8">Hecho en Maicao, La Guajira</li>
+    </ul>
+  </div>
+
+  <!-- Ola de transición -->
+  <svg viewBox="0 0 1600 90" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; z-index: 4; left: 0; bottom: -1px; width: 100%; height: 80px; display: block"><path d="M0 50C200 90 400 90 640 55S1100 0 1360 28 1520 60 1600 50V90H0Z" fill="#FFFBF3"/></svg>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" style="background: #FFFBF3; padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 56px">
+    <div style="flex: 1 1 440px; min-width: 0">
+      <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">¿Quiénes somos?</p>
+      <h2 style="margin: 0 0 24px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em">Alternativas de cuidado personal, inspiradas en la naturaleza.</h2>
+      <p style="margin: 0 0 18px; color: #3E4C44">Esencia Natural es un emprendimiento creado con la idea de ofrecer opciones de cuidado personal que aprovechan ingredientes conocidos por su uso tradicional en productos de higiene y cuidado de la piel.</p>
+      <p style="margin: 0 0 18px; color: #3E4C44">Estamos ubicados en Maicao, La Guajira, Colombia. Nos caracterizamos por la creatividad, la responsabilidad, el compromiso y el interés por brindar una buena atención a nuestros clientes.</p>
+      <p style="margin: 0; color: #3E4C44">Queremos crecer como empresa y convertirnos en una marca reconocida por su identidad natural y por la calidad de su servicio.</p>
+    </div>
+    <div class="card" style="flex: 1 1 440px; min-width: 0; background: #E4EBDD; border-radius: 28px; padding: 40px">
+      <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Nuestra historia</p>
+      <p style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-size: 25px; line-height: 1.3">La idea nació al reconocer que muchas personas buscan productos diferentes para su higiene diaria, con presentaciones atractivas y aromas agradables.</p>
+      <p style="margin: 0 0 16px; color: #3E4C44">Así decidimos crear una marca de jabones naturales con diferentes opciones para los consumidores. Nuestro propósito es comenzar en Maicao y, con esfuerzo y dedicación, lograr que nuestros productos sean conocidos en otros lugares.</p>
+      <p style="margin: 0; color: #3E4C44">Este emprendimiento es una oportunidad para aprender, innovar, desarrollar habilidades empresariales y demostrar que las buenas ideas pueden convertirse en proyectos reales.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS + CARRITO -->
+<section id="productos" style="padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto">
+    <div style="max-width: 720px; margin: 0 0 48px">
+      <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Nuestros productos</p>
+      <h2 style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em">Cinco jabones, cinco formas de cuidarte.</h2>
+      <p style="margin: 0; color: #3E4C44">Elige tus favoritos, ajusta las cantidades y envía tu pedido por WhatsApp para confirmar disponibilidad y entrega.</p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+      <div style="flex: 999 1 640px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px">
+        <sc-for list="{{products}}" as="item" hint-placeholder-count="5">
+          <article class="card" style="background: #fff; border-radius: 24px; overflow: hidden; border: 1px solid #E7DFCF; display: flex; flex-direction: column">
+            <div class="art-wrap" style="background: {{item.tint}}; padding: 18px 12px 6px">
+              <sc-if value="{{ item.isAvena }}" hint-placeholder-val="{{ true }}">
+                <svg viewBox="0 0 300 210" role="img" aria-label="Jabón de avena con granos de avena" style="width: 100%; height: auto; display: block"><ellipse cx="150" cy="186" rx="98" ry="11" fill="#1E2B24" opacity=".12"/><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#CDB88C"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#E9D9B8"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".28"/><g fill="#B98B4A"><ellipse cx="120" cy="112" rx="6" ry="13" transform="rotate(-30 120 112)"/><ellipse cx="146" cy="104" rx="6" ry="13" transform="rotate(20 146 104)"/><ellipse cx="174" cy="116" rx="6" ry="13" transform="rotate(-15 174 116)"/><ellipse cx="200" cy="106" rx="6" ry="13" transform="rotate(35 200 106)"/><ellipse cx="160" cy="134" rx="6" ry="13" transform="rotate(60 160 134)"/><ellipse cx="124" cy="136" rx="6" ry="12" transform="rotate(-60 124 136)"/><ellipse cx="196" cy="136" rx="6" ry="12" transform="rotate(50 196 136)"/></g></g></svg>
+              </sc-if>
+              <sc-if value="{{ item.isMiel }}" hint-placeholder-val="{{ false }}">
+                <svg viewBox="0 0 300 210" role="img" aria-label="Jabón de miel con panal y una gota" style="width: 100%; height: auto; display: block"><ellipse cx="150" cy="186" rx="98" ry="11" fill="#1E2B24" opacity=".12"/><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#D79A2B"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#F0B94B"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".28"/><g fill="#fff" fill-opacity=".25" stroke="#A8650F" stroke-width="2.4" stroke-linejoin="round"><polygon points="130,88 144,96 144,112 130,120 116,112 116,96"/><polygon points="158,88 172,96 172,112 158,120 144,112 144,96"/><polygon points="144,112 158,120 158,136 144,144 130,136 130,120"/><polygon points="172,112 186,120 186,136 172,144 158,136 158,120"/></g><path d="M208 90c9 13 13 19 13 25a13 13 0 0 1-26 0c0-6 4-12 13-25z" fill="#A8650F"/></g></svg>
+              </sc-if>
+              <sc-if value="{{ item.isSabila }}" hint-placeholder-val="{{ false }}">
+                <svg viewBox="0 0 300 210" role="img" aria-label="Jabón de sábila con hojas de aloe" style="width: 100%; height: auto; display: block"><ellipse cx="150" cy="186" rx="98" ry="11" fill="#1E2B24" opacity=".12"/><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#8FBF7F"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#B8D9A5"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".28"/><path d="M150 148C132 120 136 84 150 66C164 84 168 120 150 148Z" fill="#3F7A3E"/><path d="M146 148C118 132 104 104 108 82C128 96 146 120 146 148Z" fill="#5E9A58"/><path d="M154 148C182 132 196 104 192 82C172 96 154 120 154 148Z" fill="#5E9A58"/></g></svg>
+              </sc-if>
+              <sc-if value="{{ item.isLavanda }}" hint-placeholder-val="{{ false }}">
+                <svg viewBox="0 0 300 210" role="img" aria-label="Jabón de lavanda con una ramita de lavanda" style="width: 100%; height: auto; display: block"><ellipse cx="150" cy="186" rx="98" ry="11" fill="#1E2B24" opacity=".12"/><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#A99BCB"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#CBBFE3"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".28"/><path d="M150 148V72" stroke="#5E4A8C" stroke-width="3.5" stroke-linecap="round"/><g fill="#7B64A8"><ellipse cx="141" cy="84" rx="6" ry="10" transform="rotate(-25 141 84)"/><ellipse cx="159" cy="84" rx="6" ry="10" transform="rotate(25 159 84)"/><ellipse cx="140" cy="102" rx="6" ry="10" transform="rotate(-25 140 102)"/><ellipse cx="160" cy="102" rx="6" ry="10" transform="rotate(25 160 102)"/><ellipse cx="139" cy="120" rx="6" ry="10" transform="rotate(-25 139 120)"/><ellipse cx="161" cy="120" rx="6" ry="10" transform="rotate(25 161 120)"/><ellipse cx="150" cy="72" rx="5" ry="9"/></g><path d="M150 148c-14-4-24-12-28-22 12 0 24 8 28 22zM150 148c14-4 24-12 28-22-12 0-24 8-28 22z" fill="#6AA463"/></g></svg>
+              </sc-if>
+              <sc-if value="{{ item.isCoco }}" hint-placeholder-val="{{ false }}">
+                <svg viewBox="0 0 300 210" role="img" aria-label="Jabón de coco con medio coco" style="width: 100%; height: auto; display: block"><ellipse cx="150" cy="186" rx="98" ry="11" fill="#1E2B24" opacity=".12"/><g transform="rotate(-5 150 105)"><rect x="62" y="62" width="176" height="108" rx="26" fill="#D9D0BF"/><rect x="62" y="50" width="176" height="108" rx="26" fill="#F4EFE6"/><rect x="76" y="58" width="148" height="26" rx="13" fill="#fff" opacity=".6"/><circle cx="140" cy="106" r="38" fill="#6B4A2F"/><circle cx="140" cy="106" r="30" fill="#FFFBF3"/><circle cx="140" cy="106" r="13" fill="#E9DFCB"/><path d="M190 140c18-20 28-36 26-50-16 8-28 24-26 50z" fill="#5E9A58"/><path d="M196 138c22-10 34-22 36-34-16 0-30 12-36 34z" fill="#4F8A4B"/></g></svg>
+              </sc-if>
+            </div>
+            <div style="padding: 22px 24px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1">
+              <span style="align-self: flex-start; background: #E4EBDD; color: #2E4D3B; font-size: 13px; font-weight: 700; padding: 4px 12px; border-radius: 999px">{{item.tag}}</span>
+              <h3 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 25px; letter-spacing: -0.01em">{{item.nombre}}</h3>
+              <p style="margin: 0; color: #55645B; font-size: 15.5px; flex: 1">{{item.frase}}</p>
+              <p style="margin: 4px 0 0; font-weight: 700; color: #9A5E0F">{{item.priceLabel}}</p>
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 6px">
+                <div style="display: inline-flex; align-items: center; border: 1.5px solid #CFC6B3; border-radius: 999px">
+                  <button type="button" aria-label="Quitar uno" onClick="{{ item.dec }}" style="width: 44px; height: 44px; border: 0; background: transparent; font-size: 22px; border-radius: 999px; color: #1E2B24">−</button>
+                  <span aria-live="polite" style="min-width: 28px; text-align: center; font-weight: 700">{{item.qty}}</span>
+                  <button type="button" aria-label="Agregar uno" onClick="{{ item.inc }}" style="width: 44px; height: 44px; border: 0; background: transparent; font-size: 22px; border-radius: 999px; color: #1E2B24">+</button>
+                </div>
+                <button type="button" class="btn" onClick="{{ item.inc }}" style="min-height: 44px; padding: 0 20px; border: 0; border-radius: 999px; background: var(--accent); color: #F7F2E8; font-weight: 700">Agregar</button>
+              </div>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+
+      <aside aria-label="Carrito de compras" style="flex: 1 1 330px; min-width: 0; background: #2E4D3B; color: #F7F2E8; border-radius: 28px; padding: 32px">
+        <h3 style="margin: 0 0 4px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 28px">Tu carrito</h3>
+        <p style="margin: 0 0 20px; color: #C9D8C6; font-size: 15px">Revisa tu pedido antes de enviarlo.</p>
+        <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ true }}">
+          <p style="margin: 0; padding: 22px; border: 1.5px dashed #6F8E78; border-radius: 18px; color: #DDE8DA">Aún no has agregado jabones. Elige tus favoritos en el catálogo.</p>
+        </sc-if>
+        <sc-if value="{{ hasItems }}" hint-placeholder-val="{{ false }}">
+          <div style="display: flex; flex-direction: column; gap: 12px">
+            <sc-for list="{{lines}}" as="ln" hint-placeholder-count="2">
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; background: #3A5C48; border-radius: 16px">
+                <div style="min-width: 0">
+                  <div style="font-weight: 700">{{ln.nombre}}</div>
+                  <div style="font-size: 14px; color: #C9D8C6">{{ln.qty}} {{ln.unidad}} {{ln.sub}}</div>
+                </div>
+                <div style="display: inline-flex; align-items: center; gap: 4px; flex: none">
+                  <button type="button" aria-label="Quitar uno" onClick="{{ ln.dec }}" style="width: 44px; height: 44px; border: 1.5px solid #6F8E78; background: transparent; color: #F7F2E8; border-radius: 999px; font-size: 20px">−</button>
+                  <button type="button" aria-label="Agregar uno" onClick="{{ ln.inc }}" style="width: 44px; height: 44px; border: 1.5px solid #6F8E78; background: transparent; color: #F7F2E8; border-radius: 999px; font-size: 20px">+</button>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+          <div style="margin: 22px 0 0; padding-top: 18px; border-top: 1px solid #6F8E78; display: flex; justify-content: space-between; gap: 12px; font-weight: 700">
+            <span>Jabones en total</span><span>{{totalUnits}}</span>
+          </div>
+          <sc-if value="{{ showTotal }}" hint-placeholder-val="{{ false }}">
+            <div style="margin: 10px 0 0; display: flex; justify-content: space-between; gap: 12px; font-weight: 700; font-size: 20px">
+              <span>Valor total</span><span>{{totalLabel}}</span>
+            </div>
+          </sc-if>
+          <sc-if value="{{ noTotal }}" hint-placeholder-val="{{ true }}">
+            <p style="margin: 10px 0 0; font-size: 14px; color: #C9D8C6">Te confirmaremos precios y valor total por WhatsApp.</p>
+          </sc-if>
+          <a class="btn" href="{{waOrder}}" style="margin-top: 22px; display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; border-radius: 999px; background: #F7F2E8; color: #1F4A33; font-weight: 700">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            Enviar pedido por WhatsApp
+          </a>
+          <button type="button" onClick="{{ clearCart }}" style="margin-top: 10px; width: 100%; min-height: 44px; background: transparent; border: 0; color: #C9D8C6; text-decoration: underline; font-size: 15px">Vaciar carrito</button>
+        </sc-if>
+        <p style="margin: 22px 0 0; font-size: 14px; color: #C9D8C6">¡Gracias por elegir Esencia Natural! Selecciona tus jabones favoritos, revisa tu pedido y comunícate con nosotros para completar tu compra.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- MISION / VISION / OBJETIVOS -->
+<section id="mision" style="background: #2E4D3B; color: #F7F2E8; padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px">
+      <div class="card" style="background: #3A5C48; border-radius: 28px; padding: 40px">
+        <p style="margin: 0 0 12px; color: #F0C06E; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Misión</p>
+        <p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 24px; line-height: 1.4">Elaborar y comercializar jabones inspirados en ingredientes naturales, con una presentación atractiva y una atención amable. Buscamos satisfacer las necesidades de nuestros clientes, fomentar el cuidado personal y promover el crecimiento del emprendimiento local en Maicao, La Guajira.</p>
+      </div>
+      <div class="card" style="background: #3A5C48; border-radius: 28px; padding: 40px">
+        <p style="margin: 0 0 12px; color: #F0C06E; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Visión</p>
+        <p style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-size: 24px; line-height: 1.4">Ser un emprendimiento reconocido en Maicao y en diferentes lugares de La Guajira por ofrecer jabones de cuidado personal con identidad natural, creatividad y responsabilidad.</p>
+        <p style="margin: 0; color: #DDE8DA">Aspiramos a ampliar nuestra variedad, mejorar nuestros procesos de elaboración y generar oportunidades de trabajo.</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 72px">
+      <h2 style="margin: 0 0 12px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); letter-spacing: -0.02em">Nuestros objetivos</h2>
+      <p style="margin: 0 0 32px; color: #DDE8DA; max-width: 820px">Crear y fortalecer un emprendimiento dedicado a la elaboración y comercialización de jabones inspirados en ingredientes naturales, promoviendo el cuidado personal, la creatividad y el desarrollo económico local.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px">
+        <sc-for list="{{objetivos}}" as="o" hint-placeholder-count="6">
+          <div class="card" style="display: flex; gap: 16px; align-items: flex-start; padding: 20px 22px; border: 1px solid #5A7B66; border-radius: 20px">
+            <span style="flex: none; width: 40px; height: 40px; border-radius: 50%; background: #F0C06E; color: #1E2B24; font-weight: 700; display: inline-flex; align-items: center; justify-content: center">{{o.n}}</span>
+            <span style="padding-top: 6px">{{o.t}}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALORES + CULTURA -->
+<section id="valores" style="padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto">
+    <div style="max-width: 720px; margin: 0 0 48px">
+      <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Valores empresariales</p>
+      <h2 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em">Lo que nos guía cada día.</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+      <sc-for list="{{valores}}" as="v" hint-placeholder-count="7">
+        <div class="card" style="background: #fff; border: 1px solid #E7DFCF; border-radius: 22px; padding: 26px">
+          <div style="width: 14px; height: 14px; border-radius: 50%; background: {{v.color}}; margin-bottom: 16px"></div>
+          <h3 style="margin: 0 0 8px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 23px">{{v.nombre}}</h3>
+          <p style="margin: 0; color: #55645B; font-size: 15.5px">{{v.desc}}</p>
+        </div>
+      </sc-for>
+      <div class="card" style="background: #E4EBDD; border-radius: 22px; padding: 26px">
+        <h3 style="margin: 0 0 8px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 23px">Nuestra cultura</h3>
+        <p style="margin: 0; color: #3E4C44; font-size: 15.5px">Trabajo en equipo, responsabilidad, respeto y creatividad. Escuchamos a nuestros clientes, mejoramos constantemente y trabajamos de manera organizada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AMBIENTE + COMUNIDAD -->
+<section id="comunidad" style="background: #FFFBF3; padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 56px">
+    <div style="flex: 1 1 440px; min-width: 0">
+      <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Compromiso con el medio ambiente</p>
+      <h2 style="margin: 0 0 20px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.12; letter-spacing: -0.02em">Crecer pensando en el bienestar del entorno.</h2>
+      <p style="margin: 0 0 24px; color: #3E4C44">Buscamos implementar acciones que contribuyan a disminuir el impacto ambiental de nuestras actividades.</p>
+      <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 14px">
+        <sc-for list="{{ambiente}}" as="a" hint-placeholder-count="6">
+          <li style="display: flex; gap: 14px; align-items: flex-start">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2E4D3B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 1px"><circle cx="12" cy="12" r="10" fill="#E4EBDD" stroke="none"/><path d="M7.5 12.5l3 3 6-7"/></svg>
+            <span>{{a.t}}</span>
+          </li>
+        </sc-for>
+      </ul>
+    </div>
+    <div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+      <div class="card" style="background: #F0E6CE; border-radius: 28px; padding: 40px">
+        <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Aporte a la comunidad de Maicao</p>
+        <p style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-size: 24px; line-height: 1.35">Promovemos el emprendimiento y el comercio local en Maicao, La Guajira.</p>
+        <p style="margin: 0 0 14px; color: #3E4C44">Nuestro proyecto pretende apoyar a proveedores de la región cuando sea posible, dar a conocer productos elaborados por un emprendimiento local y motivar a otros jóvenes a desarrollar sus propias ideas de negocio.</p>
+        <p style="margin: 0; color: #3E4C44">A medida que crezcamos, esperamos generar oportunidades de trabajo y fortalecer nuestra participación en la economía de la comunidad.</p>
+      </div>
+      <div class="card" style="background: #fff; border: 1px solid #E7DFCF; border-radius: 28px; padding: 36px">
+        <h3 style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 26px">¿Por qué elegir Esencia Natural?</h3>
+        <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px 20px">
+          <sc-for list="{{porque}}" as="p" hint-placeholder-count="6">
+            <li style="display: flex; gap: 10px; align-items: flex-start; color: #3E4C44; font-size: 15.5px">
+              <span style="flex: none; width: 8px; height: 8px; border-radius: 50%; background: #B8741A; margin-top: 10px"></span>
+              <span>{{p.t}}</span>
+            </li>
+          </sc-for>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMO PEDIR -->
+<section id="pedido" style="padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto">
+    <div style="max-width: 720px; margin: 0 0 48px">
+      <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">¿Cómo realizar un pedido?</p>
+      <h2 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em">Comprar es sencillo: siete pasos.</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px">
+      <sc-for list="{{pasos}}" as="s" hint-placeholder-count="7">
+        <div class="card" style="position: relative; background: #fff; border: 1px solid #E7DFCF; border-radius: 22px; padding: 26px">
+          <div style="font-family: 'Fraunces', Georgia, serif; font-size: 44px; font-weight: 600; color: var(--accent); line-height: 1; margin-bottom: 12px">{{s.n}}</div>
+          <p style="margin: 0; color: #3E4C44">{{s.t}}</p>
+        </div>
+      </sc-for>
+      <div class="card" style="background: #E4EBDD; border-radius: 22px; padding: 26px; display: flex; flex-direction: column; justify-content: center; gap: 8px">
+        <span style="font-weight: 700; color: #2E4D3B">Confirmación</span>
+        <p style="margin: 0; color: #3E4C44; font-size: 15.5px">“¡Hola! Gracias por comunicarte con Esencia Natural. Hemos recibido tu solicitud de pedido. Te atenderemos para confirmar los productos, las cantidades y los detalles de entrega.”</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="background: #FFFBF3; padding: 96px 24px">
+  <div style="max-width: 860px; margin: 0 auto">
+    <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Preguntas frecuentes</p>
+    <h2 style="margin: 0 0 36px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em">Resolvemos tus dudas.</h2>
+    <div style="display: flex; flex-direction: column; gap: 12px">
+      <sc-for list="{{faq}}" as="f" hint-placeholder-count="6">
+        <div class="card" style="background: #fff; border: 1px solid #E7DFCF; border-radius: 18px; overflow: hidden">
+          <button type="button" aria-expanded="{{f.open}}" onClick="{{ f.toggle }}" style="width: 100%; min-height: 64px; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; gap: 16px; background: transparent; border: 0; text-align: left; font-size: 18px; font-weight: 700; color: #1E2B24">
+            <span>{{f.q}}</span>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2E4D3B" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="flex: none; transition: transform .2s ease; {{f.iconStyle}}"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}">
+            <p style="margin: 0; padding: 0 24px 22px; color: #3E4C44">{{f.a}}</p>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" style="padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto">
+    <div style="max-width: 720px; margin: 0 0 48px">
+      <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Contáctenos</p>
+      <h2 style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(32px, 4vw, 50px); line-height: 1.1; letter-spacing: -0.02em">Queremos estar cerca de ti.</h2>
+      <p style="margin: 0; color: #3E4C44">¿Tienes alguna pregunta o deseas realizar un pedido? Déjanos tu mensaje. En Esencia Natural estaremos felices de atenderte.</p>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+      <!-- Formulario -->
+      <div style="flex: 1 1 460px; min-width: 0; background: #fff; border: 1px solid #E7DFCF; border-radius: 28px; padding: 36px">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px">
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <label for="f-nombre" style="font-weight: 700; font-size: 15px">Nombre completo</label>
+            <input id="f-nombre" type="text" value="{{form.nombre}}" onChange="{{ setNombre }}" autocomplete="name" style="min-height: 48px; padding: 0 14px; border: 1.5px solid #CFC6B3; border-radius: 12px; font-size: 16px; background: #FFFBF3; color: #1E2B24">
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <label for="f-correo" style="font-weight: 700; font-size: 15px">Correo electrónico</label>
+            <input id="f-correo" type="email" value="{{form.correo}}" onChange="{{ setCorreo }}" autocomplete="email" style="min-height: 48px; padding: 0 14px; border: 1.5px solid #CFC6B3; border-radius: 12px; font-size: 16px; background: #FFFBF3; color: #1E2B24">
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <label for="f-tel" style="font-weight: 700; font-size: 15px">Número de teléfono</label>
+            <input id="f-tel" type="tel" value="{{form.tel}}" onChange="{{ setTel }}" autocomplete="tel" style="min-height: 48px; padding: 0 14px; border: 1.5px solid #CFC6B3; border-radius: 12px; font-size: 16px; background: #FFFBF3; color: #1E2B24">
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <label for="f-motivo" style="font-weight: 700; font-size: 15px">Motivo del mensaje</label>
+            <select id="f-motivo" value="{{form.motivo}}" onChange="{{ setMotivo }}" style="min-height: 48px; padding: 0 14px; border: 1.5px solid #CFC6B3; border-radius: 12px; font-size: 16px; background: #FFFBF3; color: #1E2B24">
+              <option value="Pedido">Hacer un pedido</option>
+              <option value="Consulta">Consulta de productos</option>
+              <option value="Precios">Preguntar por precios</option>
+              <option value="Sugerencia">Enviar una sugerencia</option>
+            </select>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 18px">
+          <label for="f-msg" style="font-weight: 700; font-size: 15px">Mensaje o consulta</label>
+          <textarea id="f-msg" rows="5" value="{{form.mensaje}}" onChange="{{ setMensaje }}" style="padding: 12px 14px; border: 1.5px solid #CFC6B3; border-radius: 12px; font-size: 16px; background: #FFFBF3; color: #1E2B24; resize: vertical"></textarea>
+        </div>
+        <a class="btn" href="{{waForm}}" style="margin-top: 22px; display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 30px; border-radius: 999px; background: var(--accent); color: #F7F2E8; font-weight: 700">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+          Enviar mensaje por WhatsApp
+        </a>
+      </div>
+
+      <!-- Info + mapa -->
+      <div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+        <div class="card" style="background: #2E4D3B; color: #F7F2E8; border-radius: 28px; padding: 32px">
+          <h3 style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 26px">Información de contacto</h3>
+          <dl style="margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 10px 18px">
+            <dt style="color: #C9D8C6">Nombre</dt><dd style="margin: 0; font-weight: 700">Esencia Natural</dd>
+            <dt style="color: #C9D8C6">Ubicación</dt><dd style="margin: 0; font-weight: 700">Maicao, La Guajira, Colombia</dd>
+            <dt style="color: #C9D8C6">WhatsApp</dt><dd style="margin: 0; font-weight: 700"><a href="{{waGeneral}}" style="text-decoration: underline">+57 311 303 7017</a></dd>
+            <dt style="color: #C9D8C6">Atención</dt><dd style="margin: 0; font-weight: 700">Pedidos, consultas y sugerencias</dd>
+          </dl>
+        </div>
+        <div style="background: #DDE7D4; border-radius: 28px; overflow: hidden">
+          <svg viewBox="0 0 480 240" role="img" aria-label="Mapa ilustrado con la ubicación de Esencia Natural en Maicao" style="width: 100%; height: auto; display: block">
+            <rect width="480" height="240" fill="#E6EDDD"/>
+            <g stroke="#fff" stroke-width="14" stroke-linecap="round" fill="none"><path d="M-10 70C90 80 140 40 240 90S400 150 490 110"/><path d="M120 -10C140 70 110 150 170 250"/><path d="M330 -10C310 60 360 120 340 250"/></g>
+            <g stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"><path d="M-10 170C80 160 160 190 250 170"/><path d="M240 90L250 170"/><path d="M400 140L490 190"/></g>
+            <g fill="#BFD3B3"><rect x="20" y="100" width="70" height="46" rx="10"/><rect x="190" y="14" width="80" height="44" rx="10"/><rect x="380" y="20" width="70" height="50" rx="10"/><rect x="400" y="170" width="60" height="50" rx="10"/><rect x="40" y="190" width="60" height="40" rx="10"/></g>
+            <ellipse cx="240" cy="150" rx="22" ry="7" fill="#1E2B24" opacity=".18"/>
+            <path d="M240 150C222 124 212 112 212 96a28 28 0 0 1 56 0c0 16-10 28-28 54z" fill="#B8741A"/>
+            <circle cx="240" cy="96" r="11" fill="#F7F2E8"/>
+          </svg>
+          <div style="padding: 20px 24px 24px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between">
+            <div>
+              <div style="font-weight: 700">Ubicación principal</div>
+              <div style="color: #3E4C44; font-size: 15px">Maicao, La Guajira, Colombia</div>
+            </div>
+            <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Maicao%2C+La+Guajira%2C+Colombia" style="min-height: 44px; display: inline-flex; align-items: center; padding: 0 22px; border-radius: 999px; background: var(--accent); color: #F7F2E8; font-weight: 700">Abrir en Google Maps</a>
+          </div>
+        </div>
+        <div class="card" style="background: #fff; border: 1px solid #E7DFCF; border-radius: 28px; padding: 28px">
+          <h3 style="margin: 0 0 6px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 24px">Síguenos en redes</h3>
+          <p style="margin: 0 0 16px; color: #55645B; font-size: 15px">Novedades, fotografías, promociones y videos del proceso de elaboración.</p>
+          <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px">
+            <li style="padding: 10px 18px; border-radius: 999px; background: #F0E6CE; font-weight: 700">Facebook · próximamente</li>
+            <li style="padding: 10px 18px; border-radius: 999px; background: #F0E6CE; font-weight: 700">Instagram · próximamente</li>
+            <li style="padding: 10px 18px; border-radius: 999px; background: #F0E6CE; font-weight: 700">YouTube · próximamente</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SISTEMA / SUBSISTEMAS -->
+<section id="sistema" style="background: #2E4D3B; color: #F7F2E8; padding: 96px 24px">
+  <div style="max-width: 1240px; margin: 0 auto">
+    <div style="max-width: 760px; margin: 0 0 48px">
+      <p style="margin: 0 0 12px; color: #F0C06E; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Sistemas y subsistemas</p>
+      <h2 style="margin: 0 0 16px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.8vw, 46px); line-height: 1.1; letter-spacing: -0.02em">Cómo funciona nuestra página web.</h2>
+      <p style="margin: 0; color: #DDE8DA">Esencia Natural es el sistema principal. Cada parte de la página cumple una función y trabaja junto a las demás: mostrar los productos, facilitar las compras y mantener la comunicación con los clientes.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px">
+      <sc-for list="{{subsistemas}}" as="ss" hint-placeholder-count="6">
+        <div class="card" style="background: #3A5C48; border-radius: 22px; padding: 26px">
+          <h3 style="margin: 0 0 8px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 22px; color: #F0C06E">{{ss.nombre}}</h3>
+          <p style="margin: 0; color: #E4EDE1; font-size: 15.5px">{{ss.desc}}</p>
+        </div>
+      </sc-for>
+    </div>
+    <p style="margin: 36px 0 0; padding: 24px 28px; border: 1px solid #5A7B66; border-radius: 20px; color: #E4EDE1">Un cliente ingresa a la página, conoce el emprendimiento, revisa los productos, selecciona sus favoritos, los agrega al carrito y finalmente se comunica por WhatsApp para confirmar su pedido.</p>
+  </div>
+</section>
+
+<!-- CONCLUSION -->
+<section style="padding: 96px 24px">
+  <div style="max-width: 860px; margin: 0 auto; text-align: center">
+    <p style="margin: 0 0 12px; color: #9A5E0F; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 14px">Conclusión</p>
+    <h2 style="margin: 0 0 24px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: clamp(30px, 3.8vw, 46px); line-height: 1.15; letter-spacing: -0.02em">Una idea que se convierte en oportunidad.</h2>
+    <p style="margin: 0 0 16px; color: #3E4C44">Esta página web nos permite dar a conocer nuestro emprendimiento, mostrar nuestro catálogo, presentar la identidad de nuestra marca, recibir solicitudes de pedidos y compartir información importante sobre nuestro negocio.</p>
+    <p style="margin: 0 0 32px; color: #3E4C44">Esencia Natural busca crecer con esfuerzo, creatividad y responsabilidad, demostrando que una idea puede convertirse en una oportunidad para emprender y contribuir al desarrollo de nuestra comunidad.</p>
+    <a class="btn" href="{{waGeneral}}" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 32px; border-radius: 999px; background: var(--accent); color: #F7F2E8; font-weight: 700">Hablemos por WhatsApp</a>
+  </div>
+</section>
+
+<!-- PIE DE PAGINA -->
+<footer style="background: #1E2B24; color: #E4EDE1; padding: 64px 24px 40px">
+  <div style="max-width: 1240px; margin: 0 auto">
+    <div style="display: flex; flex-wrap: wrap; gap: 40px 56px; justify-content: space-between">
+      <div style="flex: 1 1 300px; min-width: 0">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px">
+          <svg width="42" height="42" viewBox="0 0 42 42" aria-hidden="true"><circle cx="21" cy="21" r="21" fill="#F7F2E8"/><path d="M12 29c0-9 7-15 18-15 0 10-6 17-15 17" fill="#2E4D3B"/><path d="M13 30c5-6 9-9 14-12" stroke="#F7F2E8" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+          <span style="font-family: 'Fraunces', Georgia, serif; font-size: 26px; font-weight: 600; color: #F7F2E8">Esencia Natural</span>
+        </div>
+        <p style="margin: 0 0 8px; font-family: 'Fraunces', Georgia, serif; font-style: italic; font-size: 19px; color: #F0C06E">El cuidado que nace de la naturaleza.</p>
+        <p style="margin: 0">Maicao, La Guajira, Colombia.</p>
+        <p style="margin: 4px 0 0">WhatsApp: <a href="{{waGeneral}}" style="text-decoration: underline">+57 311 303 7017</a></p>
+      </div>
+      <nav aria-label="Pie de página" style="flex: 0 1 220px; display: flex; flex-direction: column; gap: 6px">
+        <a href="#nosotros" style="padding: 8px 0">Nosotros</a>
+        <a href="#productos" style="padding: 8px 0">Productos</a>
+        <a href="#pedido" style="padding: 8px 0">Cómo pedir</a>
+        <a href="#faq" style="padding: 8px 0">Preguntas frecuentes</a>
+        <a href="#contacto" style="padding: 8px 0">Contacto</a>
+      </nav>
+      <div style="flex: 0 1 280px; background: #2A3A31; border-radius: 20px; padding: 22px">
+        <div style="font-weight: 700; color: #F7F2E8; margin-bottom: 6px">Visitas a la página</div>
+        <div style="font-family: 'Fraunces', Georgia, serif; font-size: 34px; color: #F0C06E; line-height: 1.1">—</div>
+        <p style="margin: 8px 0 0; font-size: 14px; color: #C9D8C6">El contador se activa al conectar la página a un sistema de estadísticas para registrar visitas reales.</p>
+      </div>
+    </div>
+    <p style="margin: 48px 0 0; padding-top: 24px; border-top: 1px solid #3A4B41; font-size: 14px; color: #C9D8C6">© 2026 Esencia Natural. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- BOTON FLOTANTE WHATSAPP -->
+<a class="btn" href="{{waGeneral}}" aria-label="Escribir por WhatsApp a Esencia Natural" style="position: fixed; right: 20px; bottom: 20px; z-index: 50; display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 22px; border-radius: 999px; background: #1F7A4D; color: #fff; font-weight: 700; box-shadow: 0 10px 28px rgba(0,0,0,.28)">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+  WhatsApp
+</a>
+
+</div>
+</template>
+<script src="app.js"></script>
+</body>
+</html>
