@@ -4,11 +4,11 @@
    Si dejas un 0, la página muestra "Precio por confirmar".
    ===================================================================== */
 const PRECIOS = {
-  precioAvena: 0,
-  precioMiel: 0,
-  precioSabila: 0,
-  precioLavanda: 0,
-  precioCoco: 0
+  precioAvena: $8.000,
+  precioMiel: $5000,
+  precioSabila: $6.000,
+  precioLavanda: $7.000,
+  precioCoco: $8.5000
 };
 /* ===================================================================== */
 
